@@ -41,6 +41,7 @@ Then dowload the latest conda-recipes `here
 
 cd to the conda-recipes directory and run::
 
+    cd python
     conda build pyne
     conda install $(conda build --output pyne)
     nuc_data_make
